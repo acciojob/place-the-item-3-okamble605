@@ -1,2 +1,23 @@
 
 /* Your CSS Code here. */
+/* Holder styling */
+.holder {
+  display: flex; /* Enable flexbox */
+  justify-content: space-evenly; /* Evenly distribute items across the row */
+  flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+  gap: 10px; /* Optional: Adds spacing between items */
+  width: 100%; /* Full width of the container */
+  box-sizing: border-box; /* Include padding and border in width calculations */
+}
+
+/* Item styling */
+.item {
+  flex: 0 0 100px; /* Fixed width of 100px for each item */
+  height: 100px; /* Fixed height of 100px */
+  text-align: center; /* Center text horizontally */
+  line-height: 100px; /* Center text vertically */
+  background-color: lightgray; /* Background color for items */
+  color: black; /* Text color */
+  font-size: 20px; /* Font size */
+  font-weight: bold; /* Bold text */
+}
