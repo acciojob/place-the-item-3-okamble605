@@ -1,12 +1,12 @@
-
-/* Your CSS Code here. */
 /* Holder styling */
 .holder {
   display: flex; /* Enable flexbox */
   justify-content: space-evenly; /* Evenly distribute items across the row */
-  flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
-  gap: 10px; /* Optional: Adds spacing between items */
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
   width: 100%; /* Full width of the container */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 10px; /* Optional: Add some padding inside the container */
+  background-color: #f8f8f8; /* Optional: Background color for the container */
   box-sizing: border-box; /* Include padding and border in width calculations */
 }
 
@@ -14,10 +14,13 @@
 .item {
   flex: 0 0 100px; /* Fixed width of 100px for each item */
   height: 100px; /* Fixed height of 100px */
-  text-align: center; /* Center text horizontally */
-  line-height: 100px; /* Center text vertically */
   background-color: lightgray; /* Background color for items */
   color: black; /* Text color */
-  font-size: 20px; /* Font size */
+  font-size: 20px; /* Font size for text */
   font-weight: bold; /* Bold text */
+  text-align: center; /* Center text horizontally */
+  line-height: 100px; /* Center text vertically */
+  border: 1px solid #ccc; /* Optional: Add border around each item */
+  border-radius: 5px; /* Optional: Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow effect */
 }
